@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+}
 
 section {
   display: flex;
