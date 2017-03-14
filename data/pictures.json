@@ -1,37 +1,157 @@
 [
   {
-    "url": "img/1.jpg",
-    "width": 1690,
-    "height": 900
+    "url": "img/01.jpg",
+    "width": 2048,
+    "height": 1365
   },
   {
-    "url": "img/2.jpg",
-    "width": 2000,
-    "height": 1000
+    "url": "img/02.jpg",
+    "width": 2048,
+    "height": 1365
   },
   {
-    "url": "img/3.jpg",
-    "width": 620,
-    "height": 411
+    "url": "img/03.jpg",
+    "width": 2048,
+    "height": 1365
   },
   {
-    "url": "img/4.jpg",
-    "width": 3000,
-    "height": 2000
+    "url": "img/04.jpg",
+    "width": 2048,
+    "height": 1365
   },
   {
-    "url": "img/5.jpg",
-    "width": 1920,
-    "height": 1200
+    "url": "img/05.jpg",
+    "width": 2048,
+    "height": 1365
   },
   {
-    "url": "img/6.jpg",
-    "width": 650,
-    "height": 432
+    "url": "img/06.jpg",
+    "width": 2048,
+    "height": 1365
   },
   {
-    "url": "img/7.jpg",
-    "width": 1920,
-    "height": 1080
+    "url": "img/07.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/08.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/09.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/010.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/011.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/012.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/013.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/014.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/015.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/016.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/017.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/018.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/019.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/020.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/021.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/022.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/023.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/024.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/025.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/026.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/027.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/028.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/029.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/030.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  {
+    "url": "img/031.jpg",
+    "width": 2048,
+    "height": 1365
   }
 ]
