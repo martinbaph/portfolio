@@ -1,36 +1,36 @@
 [
   {
-    "url": "1.jpg",
+    "url": "img/1.jpg",
     "width": 1690,
     "height": 900
   },
   {
-    "url": "2.jpg",
+    "url": "img/2.jpg",
     "width": 2000,
     "height": 1000
   },
   {
-    "url": "3.jpg",
+    "url": "img/3.jpg",
     "width": 620,
     "height": 411
   },
   {
-    "url": "4.jpg",
+    "url": "img/4.jpg",
     "width": 3000,
     "height": 2000
   },
   {
-    "url": "5.jpg",
+    "url": "img/5.jpg",
     "width": 1920,
     "height": 1200
   },
   {
-    "url": "6.jpg",
+    "url": "img/6.jpg",
     "width": 650,
     "height": 432
   },
   {
-    "url": "7.jpg",
+    "url": "img/7.jpg",
     "width": 1920,
     "height": 1080
   }
