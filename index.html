@@ -8,26 +8,14 @@
   <!-- <base href="https://martinbaph.github.io/portfolio/"> -->
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-
-<script  type="text/javascript">
-
-$( document ).ready(function() {
-
-
-
-
-});
-
-
-
-
-
-</script>
 
 </head>
 <body ng-controller="ImageLayout">
+  <nav>
+    <h1>Martin Ba :: Photographer</h1>
+  </nav>
   <section id="shuffle">
     <div class="shuffle" ng-repeat="img in imgs" style="width:{{img.width*200/img.height}}px;flex-grow:{{img.width*200/img.height}}">
       <i style="padding-bottom:{{img.height/img.width*100}}%"></i>
