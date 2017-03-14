@@ -14,7 +14,7 @@ Released under the MIT license: http://jsbin.mit-license.org
 <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
-  <base href="https://xieranmaya.github.io/images/cats/">
+  <base href="https://martinbaph.github.io/portfolio/img/">
 
 <style id="jsbin-css">
 section {
@@ -55,7 +55,7 @@ angular.module('App', [])
 
 
 function ImageLayout($scope, $http){
-  $http.get('/data/pictures.json').success(function(imgs){
+  $http.get('https://martinbaph.github.io/portfolio/data/pictures.json').success(function(imgs){
     $scope.imgs = imgs
   })
 }
