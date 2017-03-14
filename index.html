@@ -1,79 +1,41 @@
 <!DOCTYPE html>
 <html ng-app="App">
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
   <meta charset="utf-8">
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2017 by xieranmaya (http://jsbin.com/tisaluy/8/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
+  <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Martin BA :: Photographer</title>
   <base href="https://martinbaph.github.io/portfolio/img/">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-<style id="jsbin-css">
-section {
-  display: flex;
-  flex-wrap: wrap;
-}
-section::after {
-  content: '';
-  flex-grow: 999999999;
-}
-div {
-  margin: 2px;
-  background-color: violet;
-  position: relative;
-}
-i{
-  display: block;
-}
-img {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  vertical-align: bottom;
-}
-</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+
+
 </head>
 <body ng-controller="ImageLayout">
   <section>
-    <div  ng-repeat="img in imgs" style="width:{{img.width*200/img.height}}px;flex-grow:{{img.width*200/img.height}}">
+    <div ng-repeat="img in imgs" style="width:{{img.width*200/img.height}}px;flex-grow:{{img.width*200/img.height}}">
       <i style="padding-bottom:{{img.height/img.width*100}}%"></i>
       <img src="{{img.url}}" alt="">
     </div>
   </section>
+
 <script>
-angular.module('App', [])
+  angular.module('App', [])
 
-.controller('ImageLayout', ImageLayout)
+  .controller('ImageLayout', ImageLayout)
 
 
-function ImageLayout($scope, $http){
-  $http.get('https://martinbaph.github.io/portfolio/data/pictures.json').success(function(imgs){
-    $scope.imgs = imgs
-  })
-}
+  function ImageLayout($scope, $http){
+    $http.get('https://martinbaph.github.io/portfolio/data/pictures.json').success(function(imgs){
+      $scope.imgs = imgs
+      shuffleArray($scope.imgs);
+    })
+  }
+
 </script>
-<script src="http://static.jsbin.com/js/render/edit.js?3.41.6"></script>
-<script>jsbinShowEdit && jsbinShowEdit({"static":"http://static.jsbin.com","root":"http://jsbin.com"});</script>
-<!-- <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-1656750-34', 'auto');
-ga('require', 'linkid', 'linkid.js');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-
-</script> -->
 
 </body>
 </html>
